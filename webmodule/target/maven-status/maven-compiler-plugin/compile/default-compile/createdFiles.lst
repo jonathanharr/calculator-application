@@ -1,0 +1,16 @@
+se\calculatorprogram\model\Equation.class
+se\calculatorprogram\util\references\PageViews.class
+se\calculatorprogram\service\TermService.class
+se\calculatorprogram\model\Equation$EquationBuilder.class
+se\calculatorprogram\model\repositories\TermRepository.class
+se\calculatorprogram\config\WebConfig.class
+se\calculatorprogram\WebMain.class
+se\calculatorprogram\model\Term.class
+se\calculatorprogram\controller\RestCalculationController.class
+se\calculatorprogram\service\TermServiceImpl.class
+se\calculatorprogram\service\EquationLoader.class
+se\calculatorprogram\util\EquationUtil.class
+se\calculatorprogram\config\DecoupledLogicComponent.class
+se\calculatorprogram\util\references\ReferenceUtil.class
+se\calculatorprogram\controller\TermController.class
+se\calculatorprogram\util\InputDTO.class
