@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicLong;
 public class WebConfig implements WebMvcConfigurer {
 
 
-    private AtomicLong atomicLong = new AtomicLong();
+    private final AtomicLong atomicLong = new AtomicLong();
 
     @Bean
     public AtomicLong atomicLong() {

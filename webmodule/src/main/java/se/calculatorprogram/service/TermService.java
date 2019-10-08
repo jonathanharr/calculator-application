@@ -10,10 +10,10 @@ import java.util.List;
  */
 public interface TermService<T> {
 
-    public List<T> findAll();
+    List<T> findAll();
 
-    public T find(T t);
+    T find(T t);
 
-    public T create(T t);
+    T create(T t);
 
 }

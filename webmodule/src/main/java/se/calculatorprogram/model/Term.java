@@ -29,7 +29,7 @@ public class Term {
     /**
      * Public Constructor, takes String value of Term.
      *
-     * @param termString
+     * @param termString being the String Value of the Number.
      */
     public Term(String termString) {
         this.termString = termString;

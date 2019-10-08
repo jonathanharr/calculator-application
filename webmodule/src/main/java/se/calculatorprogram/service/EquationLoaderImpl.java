@@ -34,12 +34,12 @@ public class EquationLoaderImpl implements EquationLoader {
     private boolean recievedAnything = false;
     private boolean hitReset = false;
     @Getter
-    private List<String> historyOfCalculations = new ArrayList<>();
+    private final List<String> historyOfCalculations = new ArrayList<>();
     private String equationStringHolder;
 
     /**
      * @return a Calculator Message, either the answer, equation, or placeholder 0's.
-     * @throws UnsupportedEncodingException
+     * @throws UnsupportedEncodingException in case of faulty Input.
      */
     public String getCalculatorMessage() throws UnsupportedEncodingException {
         if (!hitReset) {
@@ -58,8 +58,8 @@ public class EquationLoaderImpl implements EquationLoader {
      * Method "useCalculator" refers to that whenever the Calculator is used, new values have to be presented,
      * and this method does exactly that.
      *
-     * @param inputDTO
-     * @throws UnsupportedEncodingException
+     * @param inputDTO being input from User.
+     * @throws UnsupportedEncodingException in case of faulty Input.
      */
     public void useCalculator(InputDTO inputDTO) throws UnsupportedEncodingException {
         if (inputDTO.getInputOperator().equals("hitReset")) {
@@ -90,7 +90,7 @@ public class EquationLoaderImpl implements EquationLoader {
      * Performs the Calculation in question and places Equation in history list, as well as an answer in the Answer Term.
      * Increments our AtomicLong so we can navigate to the most recent calculation in our Rest Repository.
      *
-     * @throws UnsupportedEncodingException
+     * @throws UnsupportedEncodingException in case of faulty Input.
      */
     private void performAndReturnCalculationResult() throws UnsupportedEncodingException {
         equation = equationBuilder.buildEquation();
@@ -106,9 +106,9 @@ public class EquationLoaderImpl implements EquationLoader {
     /**
      * Builds an Equation String out of the Input.
      *
-     * @param equation
-     * @param resultTerm
-     * @return
+     * @param equation to derrive String from.
+     * @param resultTerm being return Term from API.
+     * @return a formatted String of either "x operator y = termResult" or "x operator = termResult"
      */
     private String buildEquationString(Equation equation, Term resultTerm) {
         return (equation.isSoloOperation()) ? "= " + resultTerm.getTermString() :

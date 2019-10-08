@@ -23,7 +23,7 @@ public class TermServiceImpl implements TermService<Term> {
     /**
      * Finds all Terms within the API. Mostly used for troubleshooting.
      *
-     * @return
+     * @return a List of All Terms within the API.
      */
     @Override
     public List<Term> findAll() {
@@ -33,8 +33,8 @@ public class TermServiceImpl implements TermService<Term> {
     /**
      * Finds a given term.
      *
-     * @param term
-     * @return
+     * @param term to find within the API
+     * @return found Term within the API.
      */
     @Override
     public Term find(Term term) {
@@ -45,8 +45,8 @@ public class TermServiceImpl implements TermService<Term> {
     /**
      * Creates a given Term.
      *
-     * @param term
-     * @return
+     * @param term to create and store within the API.
+     * @return the same Term created.
      */
     @Transactional
     @Override

@@ -29,9 +29,9 @@ public class TermController {
     /**
      * RequestMapping, loads the StartPage with correct values.
      *
-     * @param model
-     * @return
-     * @throws UnsupportedEncodingException
+     * @param model related to Template processing.
+     * @return Home
+     * @throws UnsupportedEncodingException in case of faulty input.
      */
     @RequestMapping(method = RequestMethod.GET)
     public String start(Model model) throws UnsupportedEncodingException {
@@ -45,10 +45,10 @@ public class TermController {
     /**
      * PostMapping, handles all inputs.
      *
-     * @param inputDTO
-     * @param model
-     * @return
-     * @throws UnsupportedEncodingException
+     * @param inputDTO being the Input from User
+     * @param model related to Template processing.
+     * @return Redirect page
+     * @throws UnsupportedEncodingException in case of faulty input.
      */
     @PostMapping(PageViews.INDEX)
     public String useCalculator(@ModelAttribute InputDTO inputDTO, Model model) throws UnsupportedEncodingException {

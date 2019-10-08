@@ -26,9 +26,9 @@ public class Equation {
     /**
      * Equation Costructor, only takes the Builder.
      *
-     * @param equationBuilder
+     * @param equationBuilder being the Builder to apply to Equation, handles all Constructive variables.
      */
-    public Equation(EquationBuilder equationBuilder) {
+    private Equation(EquationBuilder equationBuilder) {
         this.termArray = equationBuilder.getTermArray();
         this.operationType = equationBuilder.getOperationType();
         this.soloOperation = equationBuilder.flyingSoloOperation();
@@ -66,7 +66,7 @@ public class Equation {
         /**
          * Adds the First Term, initiates the Array.
          *
-         * @param inputDTO
+         * @param inputDTO being input from User.
          */
         public EquationBuilder addFirstTermAndOperator(InputDTO inputDTO) {
             termArray.add(new Term(inputDTO.getInputFromCalculator()));
@@ -77,7 +77,7 @@ public class Equation {
         /**
          * Adds the operation to perform on the given calculation.
          *
-         * @param operator
+         * @param operator operator in mathematical terms.
          */
         public EquationBuilder addOperator(String operator) {
             this.operationType = operator;
@@ -87,17 +87,16 @@ public class Equation {
         /**
          * Adds the second term, and final term of the Equation.
          *
-         * @param inputDTO
+         * @param inputDTO being input from User.
          */
-        public EquationBuilder addSecondTerm(InputDTO inputDTO) {
+        public void addSecondTerm(InputDTO inputDTO) {
             termArray.add(new Term(inputDTO.getInputFromCalculator()));
-            return this;
         }
 
         /**
          * Returns a simple String of the Equations first bit.
          *
-         * @return
+         * @return EquationInputString of format "number operator".
          */
         public String getEquationInputMessage() {
             return termArray.get(0).getTermString() + " " + EquationUtil.simpleOperator(operationType) + " ";

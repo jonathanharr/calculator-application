@@ -23,8 +23,8 @@ public class RestCalculationController {
     /**
      * Finds a Given Term within the API.
      *
-     * @param term
-     * @return
+     * @param term to find.
+     * @return a Found Term within the API.
      */
     @RequestMapping(method = RequestMethod.GET)
     public Term find(Term term) {
@@ -35,8 +35,8 @@ public class RestCalculationController {
     /**
      * Performs a Sub Equation.
      *
-     * @param term
-     * @param secondTerm
+     * @param term to calculate.
+     * @param secondTerm to calculate.
      * @return calculated Result in the form of a JSON.
      */
     @RequestMapping(value = "=", method = RequestMethod.GET)
@@ -49,7 +49,7 @@ public class RestCalculationController {
     /**
      * Performs a Ceiling calculation.
      *
-     * @param term
+     * @param term to calculate.
      * @return calculated Result in the form of a JSON.
      */
     @RequestMapping(value = "cei", method = RequestMethod.GET)
@@ -60,7 +60,7 @@ public class RestCalculationController {
     /**
      * Performs a Floor calculation.
      *
-     * @param term
+     * @param term to calculate.
      * @return calculated Result in the form of a JSON.
      */
     @RequestMapping(value = "floor", method = RequestMethod.GET)
@@ -71,7 +71,7 @@ public class RestCalculationController {
     /**
      * Performs a round calculation.
      *
-     * @param term
+     * @param term to calculate.
      * @return calculated Result in the form of a JSON.
      */
     @RequestMapping(value = "round", method = RequestMethod.GET)
@@ -82,8 +82,8 @@ public class RestCalculationController {
     /**
      * Performs an Addition Equation.
      *
-     * @param term
-     * @param secondTerm
+     * @param term to calculate.
+     * @param secondTerm to calculate.
      * @return calculated Result in the form of a JSON.
      */
     @RequestMapping(value = "add", method = RequestMethod.GET)
@@ -95,8 +95,8 @@ public class RestCalculationController {
     /**
      * Performs a Sub Equation.
      *
-     * @param term
-     * @param secondTerm
+     * @param term to calculate.
+     * @param secondTerm to calculate.
      * @return calculated Result in the form of a JSON.
      */
     @RequestMapping(value = "sub", method = RequestMethod.GET)
@@ -109,8 +109,8 @@ public class RestCalculationController {
     /**
      * Performs a Sub Equation.
      *
-     * @param term
-     * @param secondTerm
+     * @param term to calculate.
+     * @param secondTerm to calculate.
      * @return calculated Result in the form of a JSON.
      */
     @RequestMapping(value = "mult", method = RequestMethod.GET)
@@ -123,8 +123,8 @@ public class RestCalculationController {
     /**
      * Performs a Division Equation
      *
-     * @param term
-     * @param secondTerm
+     * @param term to calculate.
+     * @param secondTerm to calculate.
      * @return calculated Result in the form of a JSON.
      */
     @RequestMapping(value = "div", method = RequestMethod.GET)
@@ -137,8 +137,8 @@ public class RestCalculationController {
     /**
      * Performs a MOD/% Equation
      *
-     * @param term
-     * @param secondTerm
+     * @param term to calculate.
+     * @param secondTerm to calculate.
      * @return calculated Result in the form of a JSON.
      */
     @RequestMapping(value = "mod", method = RequestMethod.GET)
@@ -151,8 +151,8 @@ public class RestCalculationController {
     /**
      * Performs a MAX Equation
      *
-     * @param term
-     * @param secondTerm
+     * @param term to calculate.
+     * @param secondTerm to calculate.
      * @return calculated Result in the form of a JSON.
      */
     @RequestMapping(value = "max", method = RequestMethod.GET)
@@ -165,8 +165,8 @@ public class RestCalculationController {
     /**
      * Performs a MIN Equation
      *
-     * @param term
-     * @param secondTerm
+     * @param term to calculate.
+     * @param secondTerm to calculate.
      * @return calculated Result in the form of a JSON.
      */
     @RequestMapping(value = "min", method = RequestMethod.GET)
