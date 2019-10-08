@@ -4,7 +4,7 @@
     <attr sel="#videoDivBackground"
           th:replace="~{fragments/videodiv :: videodiv}"/>
     <attr sel="footer"
-      th:replace="~{fragments/footer :: footer}"/>
+          th:replace="~{fragments/footer :: footer}"/>
     <attr sel="#calculator-form"
           th:object="${T(se.calculatorprogram.util.references.ReferenceUtil).INPUT_DTO}"/>
     <attr sel="#result"

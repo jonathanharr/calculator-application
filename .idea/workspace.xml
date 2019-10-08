@@ -34,6 +34,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -42,12 +45,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1RPo1M3SMnZqq1IGTQgT7Y8wFG7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
@@ -206,7 +211,7 @@
       <workItem from="1570435077404" duration="6032000" />
       <workItem from="1570447822355" duration="4801000" />
       <workItem from="1570466617507" duration="336000" />
-      <workItem from="1570519063663" duration="9536000" />
+      <workItem from="1570519063663" duration="9958000" />
     </task>
     <servers />
   </component>

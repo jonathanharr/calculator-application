@@ -23,6 +23,7 @@ public final class EquationUtil {
 
     /**
      * Checks if the OperationType of a given calculation is a Solo Operation or not.
+     *
      * @param operationType being the Operation to perform of the Equation.
      * @return
      */
@@ -32,12 +33,13 @@ public final class EquationUtil {
 
     /**
      * Checks if the given value matches one of the available operations.
+     *
      * @param value being the operation to check.
      * @return true if any operation matches.
      */
-    public static boolean isThisAnOperationValue(String value){
+    public static boolean isThisAnOperationValue(String value) {
         for (int i = 0; i < operationUtilList.length; i++) {
-            if (value.equalsIgnoreCase(operationUtilList[i])){
+            if (value.equalsIgnoreCase(operationUtilList[i])) {
                 return true;
             }
         }
@@ -46,7 +48,7 @@ public final class EquationUtil {
 
     /**
      * Checks if the input is of any use for the application, is it an operator or a term?
-     *
+     * <p>
      * Left unused, but saved for the future.
      *
      * @param input most likely being from the URL method.
@@ -58,6 +60,7 @@ public final class EquationUtil {
 
     /**
      * Inputs one of the {@link se.calculatorprogram.model.OperationType} and converts it into a readable value
+     *
      * @param operationType
      * @return + - * / and more..
      */

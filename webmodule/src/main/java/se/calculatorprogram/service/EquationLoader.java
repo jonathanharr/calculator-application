@@ -11,6 +11,8 @@ import java.util.List;
 public interface EquationLoader {
 
     String getCalculatorMessage() throws UnsupportedEncodingException;
+
     void useCalculator(InputDTO inputDTO) throws UnsupportedEncodingException;
+
     List<String> getHistoryOfCalculations();
 }

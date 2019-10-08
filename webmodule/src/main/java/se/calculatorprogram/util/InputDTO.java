@@ -12,10 +12,13 @@ import lombok.Setter;
 @AllArgsConstructor
 public class InputDTO {
 
-    @Getter @Setter
+    @Getter
+    @Setter
     private String inputFromCalculator;
-    @Getter @Setter
+    @Getter
+    @Setter
     private String inputOperator;
+
     @Override
     public String toString() {
         return inputFromCalculator + inputOperator;

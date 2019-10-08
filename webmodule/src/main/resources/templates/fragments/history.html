@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<div id ="calculatorHistory" th:fragment="history(passedCalculations)">
-<!--style="text-align: right">-->
+<div id="calculatorHistory" th:fragment="history(passedCalculations)">
+    <!--style="text-align: right">-->
     <p th:each="equation : ${passedCalculations}" th:text="${equation.toString()}"></p>
 </div>
 </html>

@@ -18,29 +18,36 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol, ul {
     list-style: none;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
 /* END OF STYLE RESET */
 
 /* HEADER */
@@ -61,6 +68,7 @@ header {
     height: 100%;
     width: 100%;
 }
+
 #background-video {
     position: absolute;
     top: 0;
@@ -75,6 +83,7 @@ footer {
     padding: 2em 3em;
     width: 100%;
 }
+
 /* CONTAINER */
 #container {
     position: absolute;
@@ -83,6 +92,7 @@ footer {
     z-index: 2;
     text-align: center;
 }
+
 #calculatorDivWrapper {
     width: 36em;
     height: 30em;
@@ -92,13 +102,16 @@ footer {
     box-shadow: 2px 2px 30px black, 1px 1px 35px 5px #919191 inset;
     /*box-shadow: 10em 10em 10em 10em red inset;*/
 }
+
 #calculatorDiv {
     padding: 1em;
     height: 27.8em;
 }
+
 #calculator-form {
     margin: 0 auto;
 }
+
 /*#calculator-form table, tr, td {*/
 /*    border: 1px solid black;*/
 /*}*/
@@ -111,12 +124,14 @@ h1 {
     border-bottom: 1px solid;
     border-color: #d6d6d6;
 }
+
 #result {
     font-family: 'Roboto', sans-serif;
     color: #363636;
     font-size: 2em;
     text-align: right;
 }
+
 #calculatorHistory {
     font-family: 'Roboto', sans-serif;
     text-align: right;
@@ -136,6 +151,7 @@ input[type=button], button {
 #buttonZero {
     width: 15em;
 }
+
 /* Logic/Rest Inputs (Operators) */
 #buttonEquals, #buttonCopy {
     width: 9em;
@@ -143,13 +159,13 @@ input[type=button], button {
 
 /* Text, Display, Calculator Screen */
 input[type=number] {
-    -moz-appearance:textfield; /* Firefox */
+    -moz-appearance: textfield; /* Firefox */
     outline: none;
     background-color: transparent;
     width: 6em;
     text-align: right;
     font-family: 'Roboto', sans-serif;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 2em;
 }
 

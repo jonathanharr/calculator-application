@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * TermService Interface
+ *
  * @param <T> being the entity.
  */
 public interface TermService<T> {

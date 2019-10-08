@@ -3,7 +3,7 @@ var inputScreen = document.getElementById("inputFromCalculator");
 
 // Copy, copys the result screen, to the math screen.
 function copy() {
-    inputScreen.value+=document.getElementById("result").innerText;
+    inputScreen.value += document.getElementById("result").innerText;
 }
 
 // Adds the Listener to each Buttons value.
@@ -15,8 +15,8 @@ function addListeners() {
 
 // Sets listeners value.
 function setEventListener(input, button) {
-    button.addEventListener('click', function() {
-        inputScreen.value+=input;
+    button.addEventListener('click', function () {
+        inputScreen.value += input;
     })
 }
 
