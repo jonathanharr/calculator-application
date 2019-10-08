@@ -7,8 +7,10 @@ se\calculatorprogram\config\WebConfig.class
 se\calculatorprogram\WebMain.class
 se\calculatorprogram\model\Term.class
 se\calculatorprogram\controller\RestCalculationController.class
+se\calculatorprogram\service\EquationLoaderImpl.class
 se\calculatorprogram\service\TermServiceImpl.class
 se\calculatorprogram\service\EquationLoader.class
+se\calculatorprogram\model\Equation$1.class
 se\calculatorprogram\util\EquationUtil.class
 se\calculatorprogram\config\DecoupledLogicComponent.class
 se\calculatorprogram\util\references\ReferenceUtil.class

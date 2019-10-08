@@ -3,16 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="c9f0e3db-020c-48cd-85cd-92344e75dd30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/controller/RestCalculationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/controller/RestCalculationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/controller/TermController.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/controller/TermController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/model/Equation.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/model/Equation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/model/Term.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/model/Term.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/service/EquationLoaderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/service/EquationLoaderImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/service/TermService.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/service/TermService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/service/TermServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/service/TermServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/util/EquationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/util/EquationUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/META-INF/webmodule.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/WebMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/WebMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/controller/RestCalculationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/controller/RestCalculationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/controller/TermController.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/controller/TermController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Equation$EquationBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Equation$EquationBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Equation.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Equation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Term.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Term.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/EquationLoaderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/EquationLoaderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/TermServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/TermServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/util/EquationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/util/EquationUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/util/InputDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/util/InputDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/static/buttondialer.js" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/static/buttondialer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/templates/fragments/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/templates/fragments/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/templates/fragments/videodiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/templates/fragments/videodiv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/templates/home.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/templates/home.th.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -161,41 +175,21 @@
       <serviceView>
         <option name="contentProportion" value="0.09460888" />
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d21c15b8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d21c15b8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2ec934fc" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
     </option>
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <option name="contentProportion" value="0.21158008" />
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9292766c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9292766c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3aa80eda" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-          <option name="viewType" value="contributor" />
-          <option name="roots">
-            <list>
-              <ServiceState>
-                <option name="contributor" value="com.intellij.execution.dashboard.RunConfigurationsServiceViewContributor" />
-              </ServiceState>
-            </list>
-          </option>
-        </serviceView>
-      </list>
-    </option>
-    <option name="selectedView" value="0" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -225,7 +219,8 @@
       <workItem from="1570435077404" duration="6032000" />
       <workItem from="1570447822355" duration="4801000" />
       <workItem from="1570466617507" duration="336000" />
-      <workItem from="1570519063663" duration="11252000" />
+      <workItem from="1570519063663" duration="11512000" />
+      <workItem from="1570532434268" duration="406000" />
     </task>
     <task id="LOCAL−00001" summary="Reformated and Cleaned Code.">
       <created>1570530813616</created>
@@ -239,7 +234,19 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1570531028828</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Inspected and cleaned more code.">
+      <created>1570532250549</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1570532250549</updated>
+    </task>
+    <task id="LOCAL−00004" summary="Inspected and cleaned more code.">
+      <created>1570532286857</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1570532286858</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +257,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -258,6 +267,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Reformated and Cleaned Code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reformated and Cleaned Code." />
+    <MESSAGE value="Inspected and cleaned more code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Inspected and cleaned more code." />
   </component>
 </project>
