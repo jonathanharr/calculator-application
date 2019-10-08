@@ -156,6 +156,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.21158008" />
           <treeState>
             <expand>
               <path>
@@ -211,11 +212,33 @@
       <workItem from="1570435077404" duration="6032000" />
       <workItem from="1570447822355" duration="4801000" />
       <workItem from="1570466617507" duration="336000" />
-      <workItem from="1570519063663" duration="9958000" />
+      <workItem from="1570519063663" duration="10229000" />
     </task>
+    <task id="LOCAL−00001" summary="Reformated and Cleaned Code.">
+      <created>1570530813616</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1570530813616</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Reformated and Cleaned Code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformated and Cleaned Code." />
   </component>
 </project>
