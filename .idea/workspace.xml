@@ -1,30 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9f0e3db-020c-48cd-85cd-92344e75dd30" name="Default Changelist" comment="">
+    <list default="true" id="c9f0e3db-020c-48cd-85cd-92344e75dd30" name="Default Changelist" comment="Removed faulty">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/META-INF/webmodule.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/WebMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/WebMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/WebMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/WebMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/config/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/controller/RestCalculationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/controller/RestCalculationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/controller/TermController.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/controller/TermController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Equation$EquationBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Equation$EquationBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Equation.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Equation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Term.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Term.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/EquationLoaderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/EquationLoaderImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/TermServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/TermServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/util/EquationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/util/EquationUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/util/InputDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/util/InputDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/static/buttondialer.js" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/static/buttondialer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/templates/fragments/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/templates/fragments/history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/templates/fragments/videodiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/templates/fragments/videodiv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/templates/home.th.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/templates/home.th.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
@@ -117,9 +98,9 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn package" />
       <command value="mvn spring-boot:run" />
       <command value="mvn clean install" />
+      <command value="mvn package" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -178,12 +159,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d21c15b8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@91814c5a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d21c15b8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2ec934fc" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@91814c5a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@370d3e37" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -220,7 +201,10 @@
       <workItem from="1570447822355" duration="4801000" />
       <workItem from="1570466617507" duration="336000" />
       <workItem from="1570519063663" duration="11512000" />
-      <workItem from="1570532434268" duration="406000" />
+      <workItem from="1570532434268" duration="1155000" />
+      <workItem from="1570544312924" duration="2237000" />
+      <workItem from="1570613210579" duration="2578000" />
+      <workItem from="1570785865199" duration="861000" />
     </task>
     <task id="LOCAL−00001" summary="Reformated and Cleaned Code.">
       <created>1570530813616</created>
@@ -246,7 +230,19 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1570532286858</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Accidentally removed MAX button, reinserted. Some more Code Cleanup as well.">
+      <created>1570532884222</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1570532884222</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Cleaned Project up.">
+      <created>1570532980233</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1570532980233</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +264,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Reformated and Cleaned Code." />
     <MESSAGE value="Inspected and cleaned more code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Inspected and cleaned more code." />
+    <MESSAGE value="Accidentally removed MAX button, reinserted. Some more Code Cleanup as well." />
+    <MESSAGE value="Cleaned Project up." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned Project up." />
   </component>
 </project>
