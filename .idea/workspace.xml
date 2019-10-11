@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9f0e3db-020c-48cd-85cd-92344e75dd30" name="Default Changelist" comment="Workspace xml has been updated, not sure if I should push this or not since we had some errors before.">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c9f0e3db-020c-48cd-85cd-92344e75dd30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/webmodule/src/main/WEB-INF/jboss-web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/WebMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/WebMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/WebMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/WebMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/config/DecoupledLogicComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/config/DecoupledLogicComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/controller/RestCalculationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/controller/RestCalculationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/controller/TermController.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/controller/TermController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Equation$EquationBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Equation$EquationBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Equation.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Equation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Term.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Term.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/EquationLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/EquationLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/EquationLoaderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/EquationLoaderImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/TermService.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/TermService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/TermServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/TermServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/util/EquationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/util/EquationUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/util/InputDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/util/InputDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.war.original" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,18 +80,19 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="se.calculatorprogram.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jonat\OneDrive\calculatorprogram\webmodule\src\main\java\se\calculatorprogram\model" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jonat\OneDrive\calculatorprogram\webmodule\src\main" />
+      <recent name="C:\Users\jonat\OneDrive\calculatorprogram\webmodule\src\main\resources\static" />
+      <recent name="C:\Users\jonat\OneDrive\calculatorprogram\webmodule\src\main\resources\style\css" />
+      <recent name="C:\Users\jonat\OneDrive\calculatorprogram\webmodule\src\main\resources" />
+      <recent name="C:\Users\jonat\OneDrive\calculatorprogram\artihmetic-core\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="se.calculatorprogram.model" />
       <recent name="se.calculatorprogram.config" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jonat\OneDrive\calculatorprogram\webmodule\src\main\resources\static" />
-      <recent name="C:\Users\jonat\OneDrive\calculatorprogram\webmodule\src\main\resources\style\css" />
-      <recent name="C:\Users\jonat\OneDrive\calculatorprogram\webmodule\src\main\resources" />
-      <recent name="C:\Users\jonat\OneDrive\calculatorprogram\artihmetic-core\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jonat\OneDrive\calculatorprogram\webmodule\src\main\java\se\calculatorprogram\model" />
     </key>
   </component>
   <component name="RunAnythingCache">
