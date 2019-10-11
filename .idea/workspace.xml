@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9f0e3db-020c-48cd-85cd-92344e75dd30" name="Default Changelist" comment="Removed faulty">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/WebMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/WebMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/WebMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/WebMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.jar.original" afterDir="false" />
-    </list>
+    <list default="true" id="c9f0e3db-020c-48cd-85cd-92344e75dd30" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +157,7 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@91814c5a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@370d3e37" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@398fd05f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -204,7 +197,7 @@
       <workItem from="1570532434268" duration="1155000" />
       <workItem from="1570544312924" duration="2237000" />
       <workItem from="1570613210579" duration="2578000" />
-      <workItem from="1570785865199" duration="861000" />
+      <workItem from="1570785865199" duration="1169000" />
     </task>
     <task id="LOCAL−00001" summary="Reformated and Cleaned Code.">
       <created>1570530813616</created>
@@ -242,7 +235,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1570532980233</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Removed Arithmethic-core from the dependency declarations, it had already been removed from the project when I implemented my RESTFul API Service with Match functions. Added Lombok as a dependency since this project depended on Arithmetic-core's Lombok dependency. Works as of now in IntelliJ for me.">
+      <created>1570786864920</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1570786864920</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +265,7 @@
     <MESSAGE value="Inspected and cleaned more code." />
     <MESSAGE value="Accidentally removed MAX button, reinserted. Some more Code Cleanup as well." />
     <MESSAGE value="Cleaned Project up." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned Project up." />
+    <MESSAGE value="Removed Arithmethic-core from the dependency declarations, it had already been removed from the project when I implemented my RESTFul API Service with Match functions. Added Lombok as a dependency since this project depended on Arithmetic-core's Lombok dependency. Works as of now in IntelliJ for me." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Arithmethic-core from the dependency declarations, it had already been removed from the project when I implemented my RESTFul API Service with Match functions. Added Lombok as a dependency since this project depended on Arithmetic-core's Lombok dependency. Works as of now in IntelliJ for me." />
   </component>
 </project>
