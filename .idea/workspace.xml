@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9f0e3db-020c-48cd-85cd-92344e75dd30" name="Default Changelist" comment="" />
+    <list default="true" id="c9f0e3db-020c-48cd-85cd-92344e75dd30" name="Default Changelist" comment="Workspace xml has been updated, not sure if I should push this or not since we had some errors before.">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/WebMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/src/main/java/se/calculatorprogram/WebMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/WebMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/WebMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/config/DecoupledLogicComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/config/DecoupledLogicComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/controller/RestCalculationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/controller/RestCalculationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/controller/TermController.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/controller/TermController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Equation$EquationBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Equation$EquationBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Equation.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Equation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Term.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/model/Term.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/EquationLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/EquationLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/EquationLoaderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/EquationLoaderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/TermService.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/TermService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/TermServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/service/TermServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/util/EquationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/util/EquationUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/util/InputDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/classes/se/calculatorprogram/util/InputDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +87,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -149,17 +171,7 @@
       <serviceView>
         <option name="contentProportion" value="0.09460888" />
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@91814c5a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@91814c5a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@398fd05f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -197,7 +209,8 @@
       <workItem from="1570532434268" duration="1155000" />
       <workItem from="1570544312924" duration="2237000" />
       <workItem from="1570613210579" duration="2578000" />
-      <workItem from="1570785865199" duration="1169000" />
+      <workItem from="1570785865199" duration="2038000" />
+      <workItem from="1570788072101" duration="4848000" />
     </task>
     <task id="LOCAL−00001" summary="Reformated and Cleaned Code.">
       <created>1570530813616</created>
@@ -241,7 +254,13 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1570786864920</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Workspace xml has been updated, not sure if I should push this or not since we had some errors before.">
+      <created>1570787064005</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1570787064005</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +285,7 @@
     <MESSAGE value="Accidentally removed MAX button, reinserted. Some more Code Cleanup as well." />
     <MESSAGE value="Cleaned Project up." />
     <MESSAGE value="Removed Arithmethic-core from the dependency declarations, it had already been removed from the project when I implemented my RESTFul API Service with Match functions. Added Lombok as a dependency since this project depended on Arithmetic-core's Lombok dependency. Works as of now in IntelliJ for me." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed Arithmethic-core from the dependency declarations, it had already been removed from the project when I implemented my RESTFul API Service with Match functions. Added Lombok as a dependency since this project depended on Arithmetic-core's Lombok dependency. Works as of now in IntelliJ for me." />
+    <MESSAGE value="Workspace xml has been updated, not sure if I should push this or not since we had some errors before." />
+    <option name="LAST_COMMIT_MESSAGE" value="Workspace xml has been updated, not sure if I should push this or not since we had some errors before." />
   </component>
 </project>

@@ -11,8 +11,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="webmodule" />
         <module name="artihmeticcore" />
+        <module name="webmodule" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="artihmetic-core" options="-parameters" />
       <module name="artihmeticcore" options="-parameters" />
+      <module name="calculator-program" options="" />
       <module name="calculatorprogram" options="-parameters" />
       <module name="jsonrepo" options="-parameters" />
       <module name="webmodule" options="-parameters" />

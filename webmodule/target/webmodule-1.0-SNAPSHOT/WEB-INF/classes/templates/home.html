@@ -1,0 +1,92 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator - Jonathan Harr</title>
+    <link href="../static/css/style.css" rel="stylesheet" th:href="@{/css/style.css}"/>
+    <script th:src="@{buttondialer.js}" type="module"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header></header>
+
+<!--  Video Background  -->
+<div id="videoDivBackground"></div>
+
+<div id="container">
+    <div id="calculatorDivWrapper">
+        <div id="calculatorDiv">
+            <h1>Calculator Application</h1>
+            <!--  Form begins -->
+            <form action="/" id="calculator-form" method="post" name="useCalculator">
+                <table>
+
+                    <!--  Result + History -->
+                    <tr>
+                        <td colspan="6"><h3 id="result"></h3></td>
+                        <td rowspan="6"><div id="calculatorHistory"></div></td>
+                    </tr>
+
+                    <!--  input Screen, Copy and Reset button -->
+                    <tr>
+                        <td colspan="3"><input autofocus id="inputFromCalculator" name="inputFromCalculator"
+                                               step=".100" title="Please insert number values, and use our operators on the onboard menu."
+                                               type="number"/></td>
+                        <td colspan="2"><input id="buttonCopy" type="button" value="copy"/></td>
+                        <td colspan="1"><button name="inputOperator" value="hitReset">RESET</button></td>
+                    </tr>
+
+                    <!--   7, 8, 9 and  MOD, MAX, MIN -->
+                    <tr>
+                        <td><input class="numberButton" type="button" value="7"/></td>
+                        <td><input class="numberButton" type="button" value="8"/></td>
+                        <td><input class="numberButton" type="button" value="9"/></td>
+                        <td><button name="inputOperator" value="mod">MOD</button></td>
+                        <td><button name="inputOperator" value="max">MAX</button></td>
+                        <td><button name="inputOperator" value="min">MIN</button></td>
+                    </tr>
+
+                    <!--   4, 5, 6 and *, /,  -->
+                    <tr>
+                        <td><input class="numberButton" type="button" value="4"/></td>
+                        <td><input class="numberButton" type="button" value="5"/></td>
+                        <td><input class="numberButton" type="button" value="6"/></td>
+                        <td><button name="inputOperator" value="mult">*</button></td>
+                        <td><button name="inputOperator" value="div">/</button></td>
+                        <td><button name="inputOperator" value="cei">CEI</button></td>
+                    </tr>
+
+                    <!--   1, 2, 3 and +, -, floor -->
+                    <tr>
+                        <td><input class="numberButton" type="button" value="1"/></td>
+                        <td><input class="numberButton" type="button" value="2"/></td>
+                        <td><input class="numberButton" type="button" value="3"/></td>
+                        <td><button name="inputOperator" value="add">+</button></td>
+                        <td><button name="inputOperator" value="sub">-</button></td>
+                        <td><button name="inputOperator" value="floor">FLOOR</button></td>
+
+                    </tr>
+                    <!--   0, .(dot), =, ROUND -->
+                    <tr>
+                        <td colspan="3"><input class="numberButton" id="buttonZero" type="button" value="0"/></td>
+                        <td colspan="2"><button id="buttonEquals" name="inputOperator" value="=">=</button></td>
+                        <td><button name="inputOperator" value="round">ROUND</button></td>
+                    </tr>
+
+                </table>
+                <!--Table Ends-->
+            </form>
+            <!-- Form Ends -->
+        </div>
+        <!-- calculatorDiv ends-->
+    </div>
+
+    <footer id="footer">
+        <p>Coded by some junior Coder. (Launch me)</p>
+    </footer>
+
+</div>
+</body>
