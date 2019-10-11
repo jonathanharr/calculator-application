@@ -28,8 +28,6 @@
     </properties>
 
     <build>
-<!--        <outputDirectory>${basedir}/${target.dir}/classes</outputDirectory>-->
-<!--        <testOutputDirectory>${basedir}/${target.dir}/test-classes</testOutputDirectory>-->
 
         <plugins>
             <plugin>

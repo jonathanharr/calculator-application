@@ -2,10 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9f0e3db-020c-48cd-85cd-92344e75dd30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webmodule/src/main/WEB-INF/jboss-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/webmodule/target/webmodule-1.0-SNAPSHOT.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/WebMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/config/DecoupledLogicComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/controller/RestCalculationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/controller/TermController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/model/Equation$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/model/Equation$EquationBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/model/Equation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/model/Term.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/model/repositories/TermRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/service/EquationLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/service/EquationLoaderImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/service/TermService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/service/TermServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/util/EquationUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/util/InputDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/util/references/PageViews.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/se/calculatorprogram/util/references/ReferenceUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/static/buttondialer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/static/img/easit_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/templates/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/templates/fragments/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/templates/fragments/history.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/templates/fragments/videodiv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmodule/${target.dir}/classes/templates/home.th.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -244,7 +269,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1570787064005</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="Added a Jboss-web xml file to deploy my application to a webserver.">
+      <created>1570797118052</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1570797118052</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +301,7 @@
     <MESSAGE value="Cleaned Project up." />
     <MESSAGE value="Removed Arithmethic-core from the dependency declarations, it had already been removed from the project when I implemented my RESTFul API Service with Match functions. Added Lombok as a dependency since this project depended on Arithmetic-core's Lombok dependency. Works as of now in IntelliJ for me." />
     <MESSAGE value="Workspace xml has been updated, not sure if I should push this or not since we had some errors before." />
-    <option name="LAST_COMMIT_MESSAGE" value="Workspace xml has been updated, not sure if I should push this or not since we had some errors before." />
+    <MESSAGE value="Added a Jboss-web xml file to deploy my application to a webserver." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a Jboss-web xml file to deploy my application to a webserver." />
   </component>
 </project>
